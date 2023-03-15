@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p.book {
+    text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 8px;
+  border: 3px solid black;
+}
+
+.grow img{
+    transition: 1s ease;
+}
+
+.grow img:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.b img {
+    transition: .5s ease;
+
+}
+    
+.b img:hover{
+    box-shadow: 0 0 0 2px #000000;
+    transition: .5s ease;
+} 
+
+div.text {
+    font-family: "copperplate", Fantasy;
+    font-size: 20px;
+}
+
+body {
+    
+    /*background-color: #83677B;*/
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+}
+
+:link {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#a {
+   font-weight: bold; 
+   margin-top: 2%;
+}
+
+.imgs {
+    height:auto;
+    width:20%;
+    transition: transform 0.5s;
+}
+.imgs:hover {
+    transform: scale(0.9);
+}
+
+.he {
+    font-size:xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(104, 193, 223);
+}
+
+.text {
+    margin: auto;
+}
+
+/* * {
+    margin: auto;
+} */
+
+
+.breadcrumbs {
+    max-width: 1200px;
+    margin: 20px auto;
+    font-weight: 200;
+}
+
+.breadcrumbs > *{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.breadcrumbs .crumb:after {
+    content: '›';
+    margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child:after {
+    display:none;
+}
+
+.breadcrumbs .crumb a {
+    color: black;
+}
+
+.y:hover{
+    text-decoration: underline;
+}
