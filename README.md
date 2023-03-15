@@ -12,7 +12,7 @@ Finish up the Book component. Make the proper request to the book API, e.g., htt
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/89614960/225205816-3e851a53-6765-4c12-ba4b-2e038cef6397.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/89614960/225205935-d9253fca-93ca-43d2-ab5e-a18dd236a0e8.png" width=60% height=60%>
 
 The above image shows the book listing page.
 
